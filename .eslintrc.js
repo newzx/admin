@@ -34,6 +34,8 @@ module.exports = {
     // 空行最多不能超过5行
     'no-multiple-empty-lines': [1, {"max": 5}],
     // 允许下划线式的命名方式
-    'camelcase': [0, {"properties": "never"}]
+    'camelcase': [0, {"properties": "never"}],
+    // 转义字符串，模板文字和正则表达式中的非特殊字符不会产生任何影响
+    'no-useless-escape': 0
   }
 }
